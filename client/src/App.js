@@ -6,6 +6,7 @@ import NavBar from './components/NavBar';
 import About from './pages/About';
 import ComponentDemo from './pages/ComponentDemo';
 import Clock from './pages/Clock';
+import ItemList from './pages/ItemList';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Route exact path='/about' component={About} />
         <Route exact path='/componentDemo' component={ComponentDemo} />
         <Route exact path='/clock' component={Clock}/>
+        <Route exact path='/itemList' component={ItemList}/>
         
       </Switch>
       </Container>

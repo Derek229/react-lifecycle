@@ -53,6 +53,12 @@ class NavBar extends React.Component {
                   Clock
                 </Menu.Item>
               </Link>
+              <Link to='/itemList'>
+                <Menu.Item active={location.pathname == '/itemList'}>
+                 ItemList
+                </Menu.Item>
+              </Link>
+
           </Menu>
       )
 
