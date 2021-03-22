@@ -48,6 +48,11 @@ class NavBar extends React.Component {
                   Component Demo    
                </Menu.Item >
               </Link>
+              <Link to='/clock'>
+                <Menu.Item active={location.pathname == '/clock'}>
+                  Clock
+                </Menu.Item>
+              </Link>
           </Menu>
       )
 

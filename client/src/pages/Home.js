@@ -19,7 +19,7 @@ const Home = () => {
   return (
     <div>
       <h1>Title goes here </h1>
-      {testData}
+      
     </div>
   )
 }
